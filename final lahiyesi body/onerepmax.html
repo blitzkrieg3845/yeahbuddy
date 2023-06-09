@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="ustbar">
+        <a href="index.html"><img id="yeahbuddy"   src="/logo/logo5.PNG" ></a>
+       
+    </div>
+    <hr>
+    <div id="alt">
+        <div id="secimler">
+            <div id="soldakiyazi">
+            <div class="yazi"><a href="calculator.html" class="yazi decor">Body Mass Index</a></div>
+            <div class="yazi"><a href="bodyfatindex.html" class="yazi decor">Body Fat Percentage</a></div>
+            <div class="yazi"><a href="dailycalori.html" class="yazi decor">Daily Calori calculator</a></div>
+            <div class="yazi"><a href="calorieburned.html" class="yazi decor">Calorie Burned</a></div>
+            <div class="yazi"><a href="onerepmax.html" class="yazi decor">One-Rep Max</a></div>
+            </div>
+        </div>
+        <div id="sol">
+        <div id="sekmeler">
+        <a id="home" class="basliqsekme" href="index.html">HOME</a><a id="about" class="basliqsekme" href="ourvision.html">OUR VISION</a>
+            <div id="BMI">ONE-REP MAX</div>
+    </div>
+        <div class="divceki">WEIGHT</div>
+        <div class="ceki"><input type="number" onkeypress="cekiBarFunc()" id="ceki" value=""></div>
+        <div class="barr"></div>
+        <div class="divboy">REPS</div>
+        <div class="boy"><input type="number" onkeypress="boyBarFunc()" id="boy" value=""></div>
+        <div class="barr2"></div>
+        <button class="button" onclick="oneRepMax()">CALCULATE</button>
+        <div class="netice">RESULT</div>
+        <div class="textrap">Strength coaches set up programs with percentages based on your 1RM because they don’t know your actual strength level, but they know what percentages they want you to be using relative to your single-rep max. The calculator gives you all the relevant loads, which are done simply by multiplying the percentage by your 1RM.</div>
+        </div>
+        
+    </div>  
+    <script src="/script.js"></script>
+</body>
+</html>

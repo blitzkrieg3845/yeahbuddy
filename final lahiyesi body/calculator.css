@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#yeahbuddy{
+    width: 220px;
+    height: 100px;
+}
+#home{
+ color: black;
+ text-decoration: none;
+ font-size: 36px;
+ margin-left: 800px;
+
+}
+#home:hover{
+    color: red;
+}
+#secimler{
+    background-color: #2a2a2a;
+    
+    width: 400px;
+    height: 900px;
+}
+.yazi{
+    margin-bottom: 50px;
+    margin-left: 40px;
+    color: white;
+    font-size: 30px;
+}
+.yazi:hover{
+    color: red;
+}
+.ceki{
+    position: relative;
+    
+    margin-left: 400px;
+    
+}
+#alt{
+ display: flex;
+}
+.boy{
+    position: relative;
+    
+    margin-left: 400px;
+}
+.divceki{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.divboy{
+    position: relative;
+    
+    margin-left: 400px;
+}
+.divyas{
+    position: relative;
+    margin-left: 400px;
+}
+.yas{
+    margin-left: 400px;
+}
+.barr{
+    position: relative;
+    background-color: blue;
+    height: 20px;
+    width: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+.barr2{
+    position: relative;
+    background-color: blue;
+    height: 20px;
+    width: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+.barr3{
+    position: relative;
+    background-color: blue;
+    height: 20px;
+    width: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+.button{
+    position: relative;
+    background-color: #cb1313;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: whitesmoke;
+    width: 91px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.button:hover{
+    background-color: red;
+}
+.textcalc{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -500px;
+    width: 400px;
+    height: 500px;
+    font-size: 18px;
+}
+.netice{
+    position: relative;
+    font-size: 3.3em;
+    font-weight: 900px;
+    width: 250px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 30px;
+    background-color: #404040;
+    padding-top: 65px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+.cavab{
+    position: relative;
+    font-size: 3.3em;
+    font-weight: 900px;
+    width: 250px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 30px;
+    background-color: #404040;
+    padding-top: 65px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+#about{
+    color: black;
+ text-decoration: none;
+ font-size: 36px;
+margin-left: 30px;
+}
+#about:hover{
+    color: red;
+}
+
+#soldakiyazi{
+    margin-top: 250px;
+    margin-left: 20px;
+}
+.basliqsekme:hover{
+    border-bottom: 4px solid red;
+    transition: border-bottom 0.2s ease-in-out
+}
+#BMI{
+    font-weight: 800;
+    font-size: 38px;
+}
+.decor{
+    text-decoration: none;
+   padding-left: -10px;
+}
+.textrap{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -400px;
+    width: 400px;
+    height: 500px;
+    font-size: 30px;
+}
+#secimler:hover{
+    width: 600px;
+    background-color: #2a2a2a;
+    transition: width 0.3s ease-in-out;
+    
+}
+#secimler:not(:hover){
+
+width: 500px;
+transition: width 0.3s ease-in-out;
+}

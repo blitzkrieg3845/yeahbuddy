@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.bar{
+    height: 350px;
+    margin-left: 20px;
+}
+
+.img{
+   margin-top: -20px;
+   height: 340px;
+   width: 340px;
+   
+
+}
+.text{
+    width: 800px;
+    font-size: 20px;
+
+}
+.icbox{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 350px;
+}
+.sansur{
+    position: relative;
+    margin-top: -345px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    z-index: 4;
+
+}
+#yeahbuddy{
+    width: 200px;
+    height: 100px;
+}
+h2{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.sansur2{
+    position: relative;
+    margin-top: -345px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    z-index: 4;
+}
+#home{
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    margin-left: 1000px;
+   
+   }
+   #home:hover{
+       color: red;
+   }
+   #about{
+    color: black;
+ text-decoration: none;
+ font-size: 36px;
+margin-left: 30px;
+}
+#about:hover{
+    color: red;
+}
+.basliqsekme:hover{
+    border-bottom: 4px solid red;
+    transition: border-bottom 0.2s ease-in-out
+}

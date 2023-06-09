@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="ustbar">
+        <a href="index.html"><img id="yeahbuddy"   src="/logo/logo5.PNG" ></a>
+       
+    </div>
+    <hr>
+    <div id="alt">
+        <div id="secimler">
+            <div id="soldakiyazi">
+            <div class="yazi"><a href="calculator.html" class="yazi decor">Body Mass Index</a></div>
+            <div class="yazi"><a href="bodyfatindex.html" class="yazi decor">Body Fat Percentage</a></div>
+            <div class="yazi"><a href="dailycalori.html" class="yazi decor">Daily Calori calculator</a></div>
+            <div class="yazi"><a href="calorieburned.html" class="yazi decor">Calorie Burned</a></div>
+            <div class="yazi"><a href="onerepmax.html" class="yazi decor">One-Rep Max</a></div>
+            </div>
+        </div>
+        <div id="sol">
+        <div id="sekmeler">
+        <a id="home" class="basliqsekme" href="index.html">HOME</a><a id="about" class="basliqsekme" href="ourvision.html">OUR VISION</a>
+            <div id="BMI">CALORIE BURNED</div>
+    </div>
+        <div class="divceki">WEIGHT</div>
+        <div class="ceki"><input type="number" onkeypress="cekiBarFunc()" id="ceki" value=""></div>
+        <div class="barr"></div>
+        <div class="divboy">HEARTRATE</div>
+        <div class="boy"><input type="number" onkeypress="boyBarFunc()" id="boy" value=""></div>
+        <div class="barr2"></div>
+        <div class="divyas">AGE</div>
+        <div class="yas"><input type="number" onkeypress="yasBarFunc()" id="yas" value=""></div>
+        <div class="barr3"></div>
+        <button class="button" onclick="caloriBurned()">CALCULATE</button>
+        <div class="netice">RESULT</div>
+        <div class="textcalc">Calories burned per minute calculation is a method used to calculate how many calories a person burns during a certain activity. This calculation depends on the intensity of the activity, the weight of the person, and the duration of the activity.
+
+        <br>    The amount of calories burned in a minute can be calculated using the formula MET (Metabolic Equivalent) of activity and calorie consumption per kilogram (MET x kg x 3.5 / 200). Here, 1 MET is equal to the amount of calories a person consumes at rest (approximately 3.5 ml O2/kg/min).
+            
+        <br>    For example, to calculate the approximate number of calories a 70-kilogram person would burn if they walked for 30 minutes, we can follow these steps:
+            
+        <br>   Find the MET of the walk. The MET value of the walk is approximately 3.5 METs.
+            
+        <br>    Calculate the person's calorie consumption per kilogram. This is calculated by multiplying the person's weight (70 kg) by 3.5 (ml O2/kg/min) and dividing by 200. In this example, the person's calorie consumption per kilogram is approximately 24 kcal/minute.
+            
+        <br>    Calculate calories burned per minute. This is 3.5 MET x 70 kg x 3.5 ml O2/kg/minute / 200 = approximately 12.25 kcal/minute.
+            
+        <br>    Calculate the total calories burned. This is to multiply the calories burned per minute (12.25 kcal/minute) by 30 minutes (about 368 calories).
+            
+        <br>     As a result, it can be calculated that a 70 kilogram person would burn about 368 calories if he walked for 30 minutes. This calculation can be done similarly for other activities.</div>
+        </div>
+        
+    </div>  
+    <script src="/script.js"></script>
+</body>
+</html>
